@@ -1,0 +1,138 @@
+
+<html>
+<head>
+<title>CS13002 Programming and Data Structures</title>
+<style type="text/css">
+p {text-align:justify}
+li {text-align:justify}
+dd {text-align:justify}
+#noul {text-decoration:none}
+#noul:hover {text-decoration:underline}
+table {border:solid thin}
+td {border:solid thin}
+th {border:solid thin}
+#nobd {border:none}
+</style>
+</head>
+
+<body bgcolor="#bbddff" text="#000000" link="#0000ff" vlink="#0000ff" alink="#00ffff">
+
+<table cellpadding="10" cellspacing="0" border="0" width="100%">
+<tr>
+<td align="left" bgcolor="#000000"><h2 align="left"><font color="#bbddff">CS13002 Programming and Data Structures</font></h2>
+<td align="right" bgcolor="#000000"><h3 align="right"><font color="#bbddff">Spring semester</font></h3>
+</table>
+
+<blockquote>
+<h2 align="left">Contents</h2>
+<ul>
+<p><li><a id="noul" href="intro.html">Introduction</a>
+<blockquote>
+<a id="noul" href="intro.html#whatiscomputer">What is a digital computer?</a><br>
+<a id="noul" href="intro.html#computercomponents">The basic components of a digital computer.</a><br>
+<a id="noul" href="intro.html#programrun">How does a program run in a computer?</a><br>
+<a id="noul" href="intro.html#whyprogram">Why need one program?</a><br>
+<a id="noul" href="intro.html#howprogram">How can one program?</a><br>
+<a id="noul" href="intro.html#firstprograms">Your first C programs</a><br>
+</blockquote>
+<p><li><a id="noul" href="datatype.html">Variables and simple data types</a>
+<blockquote>
+<a id="noul" href="datatype.html#basicdatatype">Basic data types</a><br>
+<a id="noul" href="datatype.html#constant">Constants</a><br>
+<a id="noul" href="datatype.html#variable">Variables</a><br>
+<a id="noul" href="datatype.html#typecasting">Typecasting</a><br>
+<a id="noul" href="datatype.html#numberrep">Representation of numbers in memory</a><br>
+<a id="noul" href="datatype.html#arrayintro">Introduction to arrays</a><br>
+</blockquote>
+<p><li><a id="noul" href="assign.html">Assignments</a>
+<blockquote>
+<a id="noul" href="assign.html#assignment">Assignments and imperative programming</a><br>
+<a id="noul" href="assign.html#builtinop">Built-in operators</a><br>
+</blockquote>
+<p><li><a id="noul" href="io.html">Input/Output</a>
+<blockquote>
+<a id="noul" href="io.html#stdio">Standard input/output</a><br>
+<a id="noul" href="io.html#fileio">File input/output</a><br>
+<a id="noul" href="io.html#stringio">String input/output</a><br>
+<a id="noul" href="io.html#formattedio">Formatted input/output</a><br>
+</blockquote>
+<p><li><a id="noul" href="branch.html">Conditions and branching</a>
+<blockquote>
+<a id="noul" href="branch.html#logicalcond">Logical conditions</a><br>
+<a id="noul" href="branch.html#if">The if statement</a><br>
+<a id="noul" href="branch.html#ifelse">The if-else statement</a><br>
+<a id="noul" href="branch.html#nestedif">Nested if statements</a><br>
+<a id="noul" href="branch.html#multibranch">Multi-way branching</a><br>
+</blockquote>
+<p><li><a id="noul" href="loop.html">Loops and iteration</a>
+<blockquote>
+<a id="noul" href="loop.html#induction">Mathematical induction</a><br>
+<a id="noul" href="loop.html#recdef">Recursive definitions</a><br>
+<a id="noul" href="loop.html#loop">Loops</a><br>
+<a id="noul" href="loop.html#loopinv">Loop invariants</a><br>
+<a id="noul" href="loop.html#nestedloop">Nested loops</a><br>
+<a id="noul" href="loop.html#loopcontrol">Flow control inside loops</a><br>
+</blockquote>
+<p><li><a id="noul" href="exer1.html">Exercise set I</a>
+<p><li><a id="noul" href="function.html">Functions and recursion</a>
+<blockquote>
+<a id="noul" href="function.html#mathfn">Translating mathematical functions in C</a><br>
+<a id="noul" href="function.html#fnproto">Function prototypes</a><br>
+<a id="noul" href="function.html#builtinlib">Built-in libraries</a><br>
+<a id="noul" href="function.html#fnparam">Passing parameters</a><br>
+<a id="noul" href="function.html#recfn">Recursive functions</a><br>
+<a id="noul" href="function.html#recvsit">Recursion or iteration?</a><br>
+</blockquote>
+<p><li><a id="noul" href="array.html">Arrays</a>
+<blockquote>
+<a id="noul" href="array.html#arraytofn">Passing arrays to functions</a><br>
+<a id="noul" href="array.html#string">Strings</a><br>
+<a id="noul" href="array.html#arrayandpointer">Arrays and pointers</a><br>
+<a id="noul" href="array.html#multidarray">Multi-dimensional arrays</a><br>
+</blockquote>
+<p><li><a id="noul" href="exer2.html">Exercise set II</a>
+<p><li><a id="noul" href="structure.html">Structures</a>
+<blockquote>
+<a id="noul" href="structure.html#struct">Defining structures</a><br>
+<a id="noul" href="structure.html#structfunc">Passing structures to functions</a><br>
+<a id="noul" href="structure.html#structptr">Structures with self-referencing pointers</a><br>
+<a id="noul" href="structure.html#union">Unions</a><br>
+</blockquote>
+<p><li><a id="noul" href="dynamic.html">Pointers and dynamic memory management</a>
+<blockquote>
+<a id="noul" href="dynamic.html#1ddyn">One-dimensional dynamic memory</a><br>
+<a id="noul" href="dynamic.html#2ddyn">Two-dimensional dynamic memory</a><br>
+</blockquote>
+<p><li><a id="noul" href="exer3.html">Exercise set III</a>
+<p><li><a id="noul" href="ADT.html">Abstract data types</a>
+<blockquote>
+<a id="noul" href="ADT.html#whatisADT">What is an abstract data type?</a><br>
+<a id="noul" href="ADT.html#implADT">How to implement an abstract data type?</a><br>
+<a id="noul" href="ADT.html#ADTexmp">A complete example : the ordered list ADT</a><br>
+</blockquote>
+<p><li><a id="noul" href="stackqueue.html">Stacks and queues</a>
+<blockquote>
+<a id="noul" href="stackqueue.html#stackappl">The stack ADT and its applications</a><br>
+<a id="noul" href="stackqueue.html#stackimpl">Implementations of the stack ADT</a><br>
+<a id="noul" href="stackqueue.html#queueappl">The queue ADT and its applications</a><br>
+<a id="noul" href="stackqueue.html#queueimpl">Implementations of the queue ADT</a><br>
+</blockquote>
+<p><li><a id="noul" href="exer4.html">Exercise set IV</a>
+<p><li><a id="noul" href="performance.html">Performance analysis of programs</a>
+<blockquote>
+<a id="noul" href="performance.html#resource">Resource usage of a program</a><br>
+<a id="noul" href="performance.html#order">The order notation</a><br>
+<a id="noul" href="performance.html#worstvsaverage">Worst-case versus average complexity</a><br>
+<a id="noul" href="performance.html#compute">How to compute the complexity of a program?</a><br>
+</blockquote>
+<p><li><a id="noul" href="exer5.html">Exercise set V</a>
+</ul>
+
+<h3 align="left"><a id="noul" href="swf/">Animation examples</a></h3>
+
+<p><hr noshade size="2"><p>
+<div align="right"><a href="/~pds/">Course home</a>
+</blockquote>
+
+</body>
+</html>
